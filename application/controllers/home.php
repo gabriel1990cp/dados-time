@@ -1,7 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Home extends CI_Controller
+{
 
 	public function index()
 	{
@@ -11,8 +12,4 @@ class Home extends CI_Controller {
 		$this->load->view('include/footer');
 	}
 
-	public function teste()
-	{
-		echo "Gabriel";
-	}
 }
